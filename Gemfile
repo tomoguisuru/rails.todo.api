@@ -11,7 +11,8 @@ gem 'puma'                                        # Web server
 # Database
 ############
 gem 'pg'                                          # Postgres SQL
-gem 'active_model_serializers', '~> 0.9.3'        # Json serializer for use with Ember
+gem 'ember-schema', '~> 0.0.2'                    # Creates a schema.js file for use with Ember Apps
+gem 'active_model_serializers', '~> 0.9.2'        # Json serializer for use with Ember
 
 ###########
 # Testing
